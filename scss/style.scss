@@ -75,6 +75,8 @@ body{
 }
 .slider_image{
     display: none;
+    animation-name: animationSlider;
+    animation-duration: 1s;
 }
 .slider_image_active{
     display: block;
@@ -90,6 +92,19 @@ body{
 .icon_arrow_prev{
     transform: rotate(180deg);
 }
+@keyframes animationSlider{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
 .hiden{
     display: none;
 }

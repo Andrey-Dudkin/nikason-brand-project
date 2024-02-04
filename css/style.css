@@ -964,6 +964,8 @@ body {
 
 .slider_image {
   display: none;
+  animation-name: animationSlider;
+  animation-duration: 1s;
 }
 
 .slider_image_active {
@@ -983,6 +985,14 @@ body {
   transform: rotate(180deg);
 }
 
+@keyframes animationSlider {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .hiden {
   display: none;
 }/*# sourceMappingURL=style.css.map */
